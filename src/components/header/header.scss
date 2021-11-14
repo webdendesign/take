@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: teal;
+  font-size: 36px;
+  &:hover {
+    color: teal;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 7px 3px teal;
+  }
+}
+
+.header__login-btn,
+.header__logout-btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: teal;
+
+  &:hover {
+    opacity: 0.7;
+    transition: 0.35s;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 7px 3px teal;
+  }
+}

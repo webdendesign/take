@@ -1,0 +1,92 @@
+.contact__item-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__author {
+  font-size: 1.4rem;
+}
+
+.contact__block-btn button {
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.contact__block-btn book-btn:last-child {
+  margin-right: 0;
+}
+
+.edit__block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.edit__block-input input {
+  max-width: 200px;
+  flex-grow: 1;
+  margin-right: 20px;
+  padding: 5px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 7px 3px teal;
+  }
+}
+
+.edit__icon {
+  width: 100px;
+  height: 130px;
+  margin-right: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.edit__list {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.edit__item {
+  margin-right: 20px;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.edit__item img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.edit__btn,
+.contact__btn {
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: teal;
+  &:focus {
+    box-shadow: 0 0 7px 3px teal;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    transition: 0.35s;
+  }
+  &:active {
+    outline: none;
+  }
+}

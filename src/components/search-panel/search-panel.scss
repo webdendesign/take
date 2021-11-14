@@ -1,0 +1,16 @@
+.search__block {
+  margin-bottom: 20px;
+}
+
+.search__input {
+  max-width: 400px;
+  margin-right: 20px;
+  padding: 5px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 7px 3px teal;
+  }
+}

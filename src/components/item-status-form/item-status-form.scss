@@ -1,0 +1,22 @@
+.form__btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: teal;
+  &:focus {
+    box-shadow: 0 0 7px 3px teal;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    transition: 0.35s;
+  }
+  &:active {
+    outline: none;
+  }
+}
